@@ -7,10 +7,11 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Amirreza <span class="light-blue--text text--lighten-3">Nasiri</span>
+          李昊晨
+<!--          <span class="light-blue&#45;&#45;text text&#45;&#45;lighten-3">李</span> 昊晨-->
         </h1>
         <span>
-          A challenge-loving web developer
+          A challenge-loving game developer
         </span>
       </div>
 
@@ -77,24 +78,24 @@ export default {
           title: 'INFO',
           items: [
             {
-              name: 'Email',
+              name: '电子邮箱',
               icon: 'mdi-email',
-              text: 'hi@amirreza.in',
+              text: 'lihaochen910@hotmail.com',
             },
             {
-              name: 'Website',
+              name: '个人网站',
               icon: 'mdi-web',
-              text: 'amirreza.in',
+              text: 'lihaochen910.github.io',
             },
             {
-              name: 'Birth Date',
+              name: '出生日',
               icon: 'mdi-cake-variant',
-              text: 'Dec 7, 1996',
+              text: '1996-03-16',
             },
             {
-              name: 'Habitation',
+              name: '家乡',
               icon: 'mdi-map-marker',
-              text: 'Tabriz, Iran',
+              text: 'Anda, Heilongjiang',
             },
           ],
         },
@@ -103,73 +104,51 @@ export default {
           items: [
             {
               icon: 'mdi-github-circle',
-              text: 'github.com/AmirrezaNasiri',
-              link: 'https://github.com/AmirrezaNasiri',
+              text: 'github.com/lihaochen910',
+              link: 'https://github.com/lihaochen910',
             },
             {
               icon: 'mdi-linkedin-box',
-              text: 'linkedin.com/in/amirreza-nasiri',
-              link: 'https://linkedin.com/in/amirreza-nasiri',
+              text: 'linkedin.com/in/haochen-lee-316a7a131',
+              link: 'https://linkedin.com/in/haochen-lee-316a7a131',
             },
             {
               icon: 'mdi-twitter',
-              text: 'twitter.com/Amirreza_Nasiri',
-              link: 'https://twitter.com/Amirreza_Nasiri',
-            },
-            {
-              icon: 'mdi-instagram',
-              text: 'instagram.com/amirreza.n96',
-              link: 'https://instagram.com/amirreza.n96',
+              text: 'twitter.com/kanbaru_chen',
+              link: 'https://twitter.com/kanbaru_chen',
             },
           ],
         },
         hobbies: {
           title: 'HOBBIES',
           items: [
-
             {
-              icon: 'mdi-bullseye',
-              text: 'Getting out of Safe Zone',
+              icon: 'mdi-animation',
+              text: '动画',
             },
             {
-              icon: 'mdi-biohazard',
-              text: 'Challenges',
+              icon: 'mdi-book',
+              text: '漫画',
             },
             {
-              icon: 'mdi-bike',
-              text: 'Cycling',
-            },
-            {
-              icon: 'mdi-image-filter-hdr',
-              text: 'Nature',
-            },
-            {
-              icon: 'mdi-auto-fix',
-              text: 'Hacking Stuffs',
-            },
-            {
-              icon: 'mdi-teach',
-              text: 'Teaching',
-            },
-            {
-              icon: 'mdi-karate',
-              text: 'Sports',
+              icon: 'mdi-gamepad',
+              text: '游戏',
             },
             {
               icon: 'mdi-music',
-              text: 'Music',
-            },
-            {
-              icon: 'mdi-account-group',
-              text: 'Leadership',
+              text: '古典音乐',
             },
             {
               icon: 'mdi-book-open-page-variant',
-              text: 'Books',
+              text: '读书',
+            },
+            {
+              icon: 'mdi-auto-fix',
+              text: '游戏破解相关',
             },
             {
               icon: 'mdi-android-debug-bridge',
-              text: 'Tickling Bugs!',
+              text: '制造Bug!',
             },
           ],
         },
@@ -178,19 +157,15 @@ export default {
           items: [
             {
               text : 'English',
-              value: 70,
+              value: 50,
             },
             {
-              text : 'Turkish',
-              value: 45,
+              text : '简体中文',
+              value: 95,
             },
             {
-              text : 'Azeri',
-              value: 100,
-            },
-            {
-              text : 'Persian',
-              value: 100,
+              text : '正体中文',
+              value: 65,
             },
           ],
         },

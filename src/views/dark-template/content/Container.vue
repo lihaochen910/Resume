@@ -5,10 +5,10 @@
   >
     <v-card-text>
       <content-section
-        title="Who am I?"
+        title="我是谁?"
       >
-        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
+        我是一名游戏开发者<br>
+        我对游戏开发相关主题都很感兴趣，有很广泛的了解，包括Gameplay逻辑，游戏引擎架构，引擎编辑器实现
       </content-section>
       <content-section
         v-if="prouds"
@@ -39,7 +39,7 @@
       </content-section>
       <content-section
         v-if="educations"
-        title="Education"
+        title="教育"
       >
         <v-layout
           v-for="(education, i) in educations"
@@ -62,10 +62,10 @@
       <content-section
         v-if="skills"
         id="to-timeline"
-        title="Skills"
+        title="技能"
       >
         <template slot="actions">
-          (% are relative not absolute)
+          (%为相对而非绝对)
         </template>
         <v-layout wrap>
           <template
@@ -118,40 +118,47 @@ export default {
   data      : () => ({
     prouds: [
       {
-        icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
+        icon  : 'mdi-gamepad-variant',
+        text  : 'Steam猎源的主要程序',
+        source: '(4人团队)',
       },
       {
         icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
-        source: '(Bobet.ir and its channel downloads)',
-      },
-      {
-        icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
-      },
-      {
-        icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        text  : '钢琴业余水平9级',
+        source: '',
       },
     ],
     educations: [
       {
-        from       : '2015',
-        to         : '2019 (not finished yet)',
-        title      : 'Bachelor\'s degree, Information Technology',
-        location   : 'Seraj University',
-        description: 'Became a member of University Academic Association of Computer Science',
+        from       : '2014',
+        to         : '2017',
+        title      : '计算机应用技术',
+        location   : '北京吉利学院',
+        description: '主修课程: C语言、C#面向对象程序设计、Java程序设计、Android应用开发、MySQL数据库',
+      },
+      {
+        from       : '2016',
+        to         : '2017',
+        title      : 'U3d游戏开发',
+        location   : '火星时代实训基地',
+        description: '主修课程: Unity3D游戏开发和设计、 UnityGUI基础、动画/粒子系统、物理引擎、 3D数学基础、Shader渲染',
       },
     ],
     skills: [
       {
-        title: 'PHP',
-        icon : 'mdi-language-php',
+        title: 'CSharp',
+        icon : 'mdi-language-csharp',
         value: 95,
+      },
+      {
+        title: 'Lua',
+        icon : 'mdi-language-lua',
+        value: 80,
+      },
+      {
+        title: 'Ruby',
+        icon : 'mdi-language-ruby-on-rails',
+        value: 80,
       },
       {
         title: 'JavaScript',
@@ -159,67 +166,41 @@ export default {
         value: 80,
       },
       {
-        title: 'Laravel Framework',
-        icon : 'mdi-laravel',
-        value: 90,
-      },
-      {
-        title: 'Vue.js Framework',
-        icon : 'mdi-vuejs',
-        value: 90,
+        title: 'C/C++',
+        icon : 'mdi-language-cpp',
+        value: 60,
       },
       { divider: true },
       {
-        title: 'Ubuntu Server',
-        icon : 'mdi-ubuntu',
-        value: 70,
-      },
-      {
-        title: 'CentOS Server',
-        icon : 'mdi-linux',
-        value: 47,
-      },
-      {
-        title: 'Web Application Security',
-        icon : 'mdi-shield-lock',
+        title: 'Unity3D',
+        icon : 'mdi-unity',
         value: 80,
       },
       {
-        title: 'Test Driven Development',
-        icon : 'mdi-test-tube',
-        value: 26,
+        title: 'UE4',
+        icon : 'mdi-unreal',
+        value: 20,
       },
       {
-        title: 'Continuous Integration / Continuous Delivery',
-        icon : 'mdi-truck-fast',
-        value: 35,
+        title: 'Moai SDK',
+        icon : 'mdi-gamepad',
+        value: 50,
       },
+      {
+        title: 'Monogame/FNA',
+        icon : 'mdi-gamepad',
+        value: 50,
+      },
+      {
+        title: 'Html5 Game Dev',
+        icon : 'mdi-gamepad',
+        value: 60,
+      },
+      { divider: true },
       {
         title: 'Git',
         icon : 'mdi-git',
         value: 67,
-      },
-      { divider: true },
-      {
-        title: 'Hardware Development',
-        icon : 'mdi-chip',
-        value: 29,
-      },
-      {
-        title: 'C/C++',
-        icon : 'mdi-language-cpp',
-        value: 38,
-      },
-      { divider: true },
-      {
-        title: 'Leadership',
-        icon : 'mdi-account-group',
-        value: 68,
-      },
-      {
-        title: 'Content Marketing (+340 articles)',
-        icon : 'mdi-text',
-        value: 96,
       },
     ],
   }),
