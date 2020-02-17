@@ -8,7 +8,7 @@
       <div class="text-sm-center mb-4 mt-3">
         <h1>
           李昊晨
-<!--          <span class="light-blue&#45;&#45;text text&#45;&#45;lighten-3">李</span> 昊晨-->
+          <!--          <span class="light-blue&#45;&#45;text text&#45;&#45;lighten-3">李</span> 昊晨-->
         </h1>
         <span>
           A challenge-loving game developer
