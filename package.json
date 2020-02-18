@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && rm -rf docs/css && rm -rf docs/js && rm -rf docs/img && cp -r dist/css docs/css && cp -r dist/js docs/js && cp -r dist/img docs/img && yes | cp dist/favicon.ico docs/favicon.ico && yes | cp dist/index.html docs/index.html",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -15,7 +15,7 @@
     "vuetify": "^1.5.5"
   },
   "devDependencies": {
-    "@mdi/font": "^3.6.95",
+    "@mdi/font": "^4.9.95",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",

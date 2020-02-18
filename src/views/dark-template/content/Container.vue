@@ -129,79 +129,84 @@ export default {
       },
     ],
     educations: [
-      {
-        from       : '2014',
-        to         : '2017',
-        title      : '计算机应用技术',
-        location   : '北京吉利学院',
-        description: '主修课程: C语言、C#面向对象程序设计、Java程序设计、Android应用开发、MySQL数据库',
-      },
-      {
-        from       : '2016',
-        to         : '2017',
-        title      : 'U3d游戏开发',
-        location   : '火星时代实训基地',
-        description: '主修课程: Unity3D游戏开发和设计、 UnityGUI基础、动画/粒子系统、物理引擎、 3D数学基础、Shader渲染',
-      },
+		{
+			from       : '2014',
+			to         : '2017',
+			title      : '计算机应用技术',
+			location   : '北京吉利学院',
+			description: '主修课程: C语言、C#面向对象程序设计、Java程序设计、Android应用开发、MySQL数据库',
+		},
+		{
+			from       : '2016',
+			to         : '2017',
+			title      : 'U3d游戏开发',
+			location   : '火星时代实训基地',
+			description: '主修课程: Unity3D游戏开发和设计、 UnityGUI基础、动画/粒子系统、物理引擎、 3D数学基础、Shader渲染',
+		},
     ],
     skills: [
-      {
-        title: 'CSharp',
-        icon : 'mdi-language-csharp',
-        value: 95,
-      },
-      {
-        title: 'Lua',
-        icon : 'mdi-language-lua',
-        value: 80,
-      },
-      {
-        title: 'Ruby',
-        icon : 'mdi-language-ruby-on-rails',
-        value: 80,
-      },
-      {
-        title: 'JavaScript',
-        icon : 'mdi-language-javascript',
-        value: 80,
-      },
-      {
-        title: 'C/C++',
-        icon : 'mdi-language-cpp',
-        value: 60,
-      },
-      { divider: true },
-      {
-        title: 'Unity3D',
-        icon : 'mdi-unity',
-        value: 80,
-      },
-      {
-        title: 'UE4',
-        icon : 'mdi-unreal',
-        value: 20,
-      },
-      {
-        title: 'Moai SDK',
-        icon : 'mdi-gamepad',
-        value: 50,
-      },
-      {
-        title: 'Monogame/FNA',
-        icon : 'mdi-gamepad',
-        value: 50,
-      },
-      {
-        title: 'Html5 Game Dev',
-        icon : 'mdi-gamepad',
-        value: 60,
-      },
-      { divider: true },
-      {
-        title: 'Git',
-        icon : 'mdi-git',
-        value: 67,
-      },
+		{
+			title: 'CSharp',
+			icon : 'mdi-language-csharp',
+			value: 95,
+		},
+		{
+			title: 'JavaScript',
+			icon : 'mdi-language-javascript',
+			value: 80,
+		},
+		{
+			title: 'Lua',
+			icon : 'mdi-language-lua',
+			value: 80,
+		},
+		{
+			title: 'Ruby',
+			icon : 'mdi-language-ruby-on-rails',
+			value: 80,
+		},
+		{
+			title: 'JavaScript',
+			icon : 'mdi-language-javascript',
+			value: 80,
+		},
+		{
+			title: 'C/C++',
+			icon : 'mdi-language-cpp',
+			value: 60,
+		},
+		{ divider: true },
+		{
+			title: 'Unity3D',
+			icon : 'mdi-unity',
+			value: 80,
+		},
+		{
+			title: 'UE4',
+			icon : 'mdi-unreal',
+			value: 20,
+		},
+		{
+			title: 'Moai SDK',
+			icon : 'mdi-gamepad',
+			value: 50,
+		},
+		{
+			title: 'Monogame/FNA',
+			icon : 'mdi-gamepad',
+			value: 50,
+		},
+		{
+			title: 'Html5 Game Dev',
+			icon : 'mdi-gamepad',
+			value: 60,
+		},
+		{ divider: true },
+		{
+			title: 'Git',
+			icon : 'mdi-git',
+			value: 67,
+		},
     ],
   }),
 }

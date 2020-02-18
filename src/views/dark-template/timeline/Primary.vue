@@ -120,6 +120,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import ContentSection from '@/views/dark-template/content/Section'
 export default {
   name      : 'Timeline',
@@ -127,349 +128,213 @@ export default {
   data      : () => ({
     detailed: true,
     items   : [
-      {
-        detailed   : true,
-        transparent: true,
-        year       : '1996',
-        title      : 'Born on Dec 7, 1996',
-        html       : 'With a chance of %0.00000000000512.<br>I\'m completely aware of value of the life!',
-        icon       : 'mdi-cake-variant',
-      },
-      {
-        detailed   : true,
-        transparent: true,
-        year       : '2003',
-        title      : 'Touched a Mouse',
-        html       : 'ME: "Woooow!"<br><i>... Of course got slapped later!</i>',
-        icon       : 'mdi-mouse-variant',
-      },
-      {
-        detailed   : true,
-        year       : '2009',
-        transparent: true,
-        title      : 'Started an7.mahblog.com',
-        html       : `
-                <p>
-                    I'm still emotional about this one. It was August 9, 2009 that I decided to start blogging so <a target="_blank" href="https://web.archive.org/web/20090819185659/http://an7.mahblog.com/">an7.mahblog.com</a> has just showed up! Years later, Mahblog.com got censored in Iran and my blog disappeared. <a target="_blank" href="https://web.archive.org/web/20120626234739/http://www.an7.mahblog.com/">Last archived page</a> was on June 26, 2012.
-                </p>
-                <p>
-                    Back then, my blog used to get more than 500 visitors/day and its Page Rank has reached to level 2 which was actually great! Rest In Peace an7 ...
-                </p>
-                <p>
-                    During 2009 - 2011, many other blogs has been created too. For example:
-                    <ul>
-                        <li>
-                            <a href="https://web.archive.org/web/20100926063748/http://bro2gifs.mihanblog.com/post/5">bro2gifs.mihanblog.com</a> - we were receiving banner designing orders there!
-                        </li>
-                        <li>
-                            <a href="https://web.archive.org/web/20101203082548/http://kdabs.mihanblog.com/">kdabs.mihanblog.com</a> - we were publishing audio books there
-                        </li>
-                        <li>
-                            <a href="http://web.archive.org/web/20100909150338/http://best1shops.mihanblog.com/">best1shops.mihanblog.com</a> - it was our first online shop and we got our first income from there. The feeling of that moment was awesome!
-                        </li>
-                        <li>
-                            And many other blogs I can't really remember!
-                        </li>
-                    </ul>
-                </p>
-        `,
-        image      : 'img/timeline/an7.mahblog.com.png',
-        imageHeight: 200,
-        icon       : 'mdi-web',
-      },
-      {
-        detailed   : true,
-        year       : '2009',
-        transparent: true,
-        title      : 'Created Almas-Khor Game',
-        html       : 'A simple (yet almost unbeatable!) game made with Game Maker. It\'s still available for <a target="_blank" href="https://download.tebyan.net/2687/%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-%D8%AE%D9%88%D8%B1">download here</a>!<br>The reason this game is pretty important for me is that it was my first published program!',
-        image      : 'img/timeline/almas-khor.jpg',
-        iconImage  : 'img/timeline/almas-khor-icon.png',
-      },
-      {
-        detailed   : true,
-        year       : '2011',
-        transparent: true,
-        title      : 'Fished Mobsters!',
-        html       : `
-          <p>
-            Oh shouldn't I include this one?! whatever ...<br>
-            It was 2011 and I'd been addicted to a game called Street Mobsters. On its IR server, which is still available on <a target="_blank" href="https://web.archive.org/web/20111005204247/https://mobgangs.com/">mobgangs.com</a>, I decided to perform a phishing attack and harvest credentials of in-game wealthy people.
-          </p>
-          <p>
-            I hosted a page similar to this one and published it inside the game via various mediums. To be honest, I didn't expect any result but about 40 people had given me their username and passwords! among them, I selected wealthiest ones and ... you know rest of the story just add a Robin Hood at the end!
-          </p>
-          <p>
-            This was the moment I realized how it is easy to actually get misused especially on the net.
-          </p>
-        `,
-        image    : 'img/timeline/street-mobsters.jpg',
-        iconImage: 'img/timeline/street-mobsters-icon.png',
-      },
-      {
-        detailed   : true,
-        year       : '2012',
-        transparent: true,
-        title      : 'Created a Botnet',
-        html       : `
-                <p>
-                    A VB6-based (yes you read it correctly! Visual Basic 6) botnet with dynamic C&Cs on Blogfa.com and many zombies. Just kidding, there were 3 infected PCs only!
-                </p>
-                <p>
-                    It was initially created to perform fraud clicks on one of PPC ads on one of my old blogs. It was designed in a way that the advertiser would not be able to detect the fraud easily.
-                </p>
-                `,
-        icon: 'mdi-desktop-classic',
-      },
-      {
-        year : '2013',
-        title: 'Founded Bytegate.ir',
-        html : `
-                    <p>
-                        Current status: <span class="green--text accent-4">Active</span>,
-                        Team: <span class="">1-5 person(s) (variable)</span>
-                    </p>
-                    <p>
-                        The main goal of <a target="_blank" href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bytegate">Bytegate.ir</a> is to extend IT-related articles in Persian web with pretty easy-to-understand and picture-driven articles.
-                    </p>
-                    <p>
-                        The reason I founded Bytegate.ir was because of a dispute about computer stuffs back in school. Soon, I realized that I know NOTHING about computers! Bytegate.ir is the place I've started learning amazing things.
-                    </p>
-                    <p>
-                        Currently there are 600+ articles on the website which helps 4000+ people each day. It's been helping 4 people to cover small part of their expenses.
-                   </p>`,
-        image    : 'img/timeline/bytegate.ir.jpg',
-        iconImage: 'img/timeline/bytegate.ir-icon.png',
-      },
-      {
-        detailed   : true,
-        year       : '2014-15',
-        transparent: true,
-        title      : 'Created a Captcha Solving Farm',
-        /* eslint-disable no-useless-escape */
-        html       : `
-                <p>
-                    I was inspired by a blog post about captcha solving techniques and made my own captcha solving farm and built some basic APIs for <span style="background-color: #d1d1d1;">/(bad)?/g</span> guys to use it.
-                </p>
-                <p>
-                    It was initially created to make me millionaire (!) however, it was never even published since I couldn't find a way to receive money from outside of Iran. It was a stupid attempt in fact! 🤦‍♂️
-                </p>
-                `,
-        /* eslint-enable no-useless-escape */
-        icon: 'mdi-worker',
-      },
-      {
-        year       : '2015',
-        transparent: true,
-        title      : 'Created WifiShield',
-        html       : `
-          <p>
-              Current status: <span class="red--text darken-3">Failed</span>,
-              Team: <span class="">1</span>
-          </p>
-          <p>
-            WifiShield supposed to be a network security application to find vulnerabilities in Wi-Fi networks and fix them by manipulating through their actual configuration user interface.          </p>
-          <p>
-            It was basically a web crawler which is designed to go to default gateway (192.168.1.1 or whatever it was configured) page and interact with its user interfec following predefined action sets.
-          </p>
-          <p>
-            <span class="red--text darken-3">Failing Reason</span>:
-             The main problem with this application was that, I wasn't able to gather all possible firmware/emulators of devices of even a single brand. And of course, every version of a specific models may come in a different firmware version and thus different UI. I've only defined action sets for my own access points and left it as is.
-          </p>
-        `,
-        image    : 'img/timeline/wifi-shield.png',
-        iconImage: 'img/timeline/wifi-shield-icon.png',
-      },
-      {
-        year : '2016',
-        title: 'Founded Bobet.ir',
-        html : `
-          <p>
-              Current status: <span class="orange--text lighten-1">Taking last breaths</span>,
-              Team: <span class="">1-6 person(s) (variable)</span>
-          </p>
-          <p>
-              The purpose of <a target="_blank" href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bobet">Bobet.ir</a> is to let people learn English and Turkish languages in a different way by listening to musics with their lyrics, Persian translations and pronunciations of the actual lyric in Persian letters. The website reached 9000 visits/day. More than 270+ musics with contents are published there.
-          </p>
-          <p>
-              The reason behind founding Bobet.ir was pretty simple: testing Google SEO patterns related to musics. But suddenly, it grew up so fast we decided to pivot and work on it as a real project.
-          </p>
-          <p>
-            <span class="orange--text lighten-1">Failing Reason</span>:
-             A year later, it got censored in Iran (since women voice in musics are illegal here!) and the stats dropped suddenly. Before then, it had helped 5 people to cover some pieces of their expenses and had helped <a target="_blank" href="https://mahak-charity.org/main/index.php/fa/">Mahak Charity</a> to receive some donations by promoting it.
-          </p>
-        `,
-        image    : 'img/timeline/bobet.ir.jpg',
-        iconImage: 'img/timeline/bobet.ir-icon.png',
-      },
-      {
-        year       : '2017',
-        transparent: true,
-        title      : 'Founded Telepad',
-        html       : `
-          <p>
-              Current status: <span class="red--text darken-3">Failed</span>,
-              Team: <span class="">1</span>
-          </p>
-          <p>
-            <a target="_blank" href="http://t.me/Telepad_Bot">Telepad</a> was a Telegram assistant bot which helped channel owners to manage their posts easily by scheduling posts, instant editing, ready-to-be-published post suggestions and administrators' role management.
-          </p>
-          <p>
-            The reason behind founding it was personal usage. It was initially created to make Bobet.ir publishing process easier but I decided to let others use it too.
-          </p>
-          <p>
-            <span class="red--text darken-3">Failing Reason</span>:
-             Well, I was alone and couldn't handle its development since I'd been working on other projects too.<br />
-             Starting from there, slowly, I understood the actual value of having a team and focusing on a specific business.
-          </p>
-        `,
-        image    : 'img/timeline/telepad.png',
-        iconImage: 'img/timeline/telepad-icon.png',
-      },
-      {
-        year : '2017',
-        title: 'Founded Delix.ir',
-        html : `
-          <p>
-              Current status: <span class="green--text accent-4">Active</span>,
-              Team: <span class="">1</span>
-          </p>
-          <p>
-            <a target="_blank" href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=delix">Delix.ir</a> is an online image text extractor (OCR) and PDF to Word converter which is built to support Persian language especially. The service also provides APIs to implement its OCR engines into customers' own applications.
-          </p>
-          <p>
-            The reason I founded Delix.ir (<u>D</u>ocument <u>ELIXIR</u>) was because back in school, I found out that there is an unsolved need for this kind of services especially needed by teachers. However, it wasn't developed since 2017.
-          </p>
-          <p>
-            Currently, 3330+ people are using the service. It's still under development and we're going to change the strategy to support B2B market soon.
-          </p>
-        `,
-        image    : 'img/timeline/delix.ir.png',
-        iconImage: 'img/timeline/delix.ir-icon.png',
-      },
-      {
-        detailed   : true,
-        transparent: true,
-        year       : '2018',
-        title      : 'A Turning Point',
-        html       : `
-          <p>
-          It looks like that 2018 is missing from my CV isn't it? <strong>NOT AT ALL!</strong>
-          </p>
-          <p>
-          This awesome year was a turning point in my life. I found out the reason why my businesses are not growing; what I'm doing wrong; what I've supposed to do and plenty of other thoughts.
-          </p>
-          <p>
-          Technically, I got familiar with and tried to be best (not yet of course!) at the following technologies:
-          <ul>
-          <li>git</li>
-          <li>Laravel</li>
-          <li>Vue.js</li>
-          <li>Arduino</li>
-          <li>Ubuntu</li>
-          <li>TTD and CI/CD</li>
-          <li>Development best practices</li>
-          <li>And more ...</li>
-          </ul>
-          </p>
-          <p>
-          So please don't underestimate this card by its height in pixels. It's worth a lot to me.
-          </p>
-
-        `,
-        icon: 'mdi-cake-variant',
-      },
-      {
-        year : '2019',
-        title: 'Open Sourced Telegram Web Bridge',
-        html : `
-          <p>
-              Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/telegram-web-bridge">AmirrezaNasiri/telegram-web-bridge</a>
-          </p>
-          <p>
-            Telegram Web Bridge is a bidirectional, web-based, proxy-like application which can act as a middleman for Telegram Bot API requests (from your actual application to Telegram) and Webhooks (from Telegram to your actual application).
-          </p>
-          <p>
-            It was initially developed because of Telegram censorship in Iran and the need for it in a storage management software we've built. I decided to publish the codes so anyone with the same problem will be able to handle it.
-          </p>
-        `,
-        image: 'img/timeline/telegram-web-bridge.png',
-        icon : 'mdi-github-circle',
-      },
-      {
-        year : '2019',
-        title: 'Open Sourced USB Keystroke Injector',
-        html : `
-          <p>
-            Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/usb-keystroke-injector">AmirrezaNasiri/usb-keystroke-injector</a>
-          </p>
-          <p>
-            An Arduino-based keyboard emulator which injects (i.e. types) a sequence of letters received via Bluetooth protocol or read from predefined SD card payloads. Demo GIF is available on the GitHub page.
-          </p>
-          <p>
-            It was initially a university project, made at 2018 but I decided to extend it a little bit and publish it on my GitHub.
-          </p>
-        `,
-        image: 'img/timeline/usb-keystroke-injector.png',
-        icon : 'mdi-github-circle',
-      },
-      {
-        year : '2019',
-        title: 'Co-Founded Smo.li',
-        html : `
-          <p>
-              Current status: <span class="green--text accent-4">Active</span>,
-              Team: <span class="">2</span>
-          </p>
-          <p>
-            <a target="_blank" href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=smoli">Smoli</a> is a URL shortener and link tracking platform that also allows you to add eye-catching and branded call-to-actions to any page on the web. See a demo of Forbes campaign on Business News Daily: <a target="_blank" href="http://smo.li/+demo-forbes">smo.li/+demo-forbes</a>.
-          </p>
-          <p>
-            The service has been founded by <a target="_blank" href="https://www.linkedin.com/in/saeidhabibpour/">Saeid Habibpour</a> (CEO) and me (CTO). Currently, the MVP is ready and we're researching the market.
-          </p>
-        `,
-        image    : 'img/timeline/smo.li.png',
-        iconImage: 'img/timeline/smo.li-icon.png',
-      },
-      {
-        year : '2019',
-        title: 'Open Sourced This Resume',
-        html : `
-          <p>
-              Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-modern-resume">AmirrezaNasiri/vue-modern-resume</a>
-          </p>
-          <p>
-            A Vue.js-based and powered-by-Vuetify (material UI kit) resume template which you're seeing right now!
-          </p>
-        `,
-        image: 'img/timeline/vue-modern-resume.png',
-        icon : 'mdi-github-circle',
-      },
-      {
-        year : '2019',
-        title: 'Published Vue Registrar Package',
-        html : `
-          <p>
-              Current status: <span class="light-blue--text lighten-3">Published</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-registrar">AmirrezaNasiri/vue-registrar</a>
-          </p>
-          <p>
-            A Vue.js package that makes developers' code a lot cleaner and much more understandable. It's consisted of two features that:
-            <ul>
-                <li>Registers all your common and frequently used components globally and ends the need for importing them manually;</li>
-                <li>Assembles all your vuex modules in a nested manner.</li>
-            </ul>
-          </p>
-        `,
-        image    : 'img/timeline/vue-registrar-demo.png',
-        iconImage: 'img/timeline/vue-registrar-logo.png',
-      },
-      {
-        year : 'So far ...',
-        title: 'Written 340+ Unique Articles!',
-        html : `I'm the guy who loves teaching! So far, I've written 340+ unique articles which most of them are computer-related. You can access them here:
-                    <ul><li><a target="_blank" href="https://bytegate.ir/author/amirrezanasiri/">My posts on Bytegate.ir</a> (260+ Computer-related)</li><li><a target="_blank" href="http://bobet.ir/author/amirrezanasiri/">My posts on Bobet.ir</a> (80+ translations)</li></ul>`,
-        icon: 'mdi-fountain-pen-tip',
-      },
+		{
+			detailed   : true,
+			transparent: true,
+			year       : '1996',
+			title      : '出生于1996年3月16日，大雪',
+			html       : '',
+			icon       : 'mdi-cake-variant',
+		},
+		{
+			detailed   : true,
+			transparent: true,
+			year       : '2003',
+			title      : '第一次接触电脑',
+			html       : '我: "哇!"<br><i>这个游戏看起来比小霸王上的好玩多了!</i>',
+			icon       : 'mdi-mouse-variant',
+		},
+		{
+			year : '2012',
+			title: '高中时，开始接触编程语言',
+			html : `
+				<p>
+					在书店里看到一本好厚的书: Head First C#，缠着妈妈把它买下来。
+				</p>
+				<p>
+					翻了几页，然而并没有看懂多少。。。:(
+				</p>
+			`,
+			image: 'img/timeline/book.gif',
+			icon : 'mdi-school',
+		},
+		{
+			year : '2015',
+			title: '在学校中写了一个安卓的屏幕锁应用',
+			html : `
+				<p>
+					大二时学习了Android的课程之后，手痒痒想练练手。
+				</p>
+				<p>
+					想到以前使用搭载Blackberry 10操作系统的黑莓手机有一个锁屏功能很酷。
+				</p>
+				<p>
+					于是我就写了<a target="_blank" href="https://github.com/lihaochen910/BB10_DigitalUnlock_4_Android">BB10_DigitalUnlock_4_Android</a><br>
+					非常酷!
+				</p>
+			`,
+			image: 'img/timeline/school_2.png',
+			icon : 'mdi-school',
+		},
+		{
+			year : '2015',
+			title: '在学校开始研究Unity3D',
+			html : `
+			  <p>
+				  对游戏感兴趣，想做一个游戏试试。
+			  </p>
+			  <p>
+				  曾经玩过一个Xbox360上的游戏叫凯瑟琳，那个3D推箱子挺有意思，于是就想去做一个。。。
+			  </p>
+			`,
+			image: 'img/timeline/school.png',
+			icon : 'mdi-school',
+		},
+		{
+			year       : '2016',
+			title      : '参加火星时代的培训',
+			html       : `
+				<p>
+					学习了U3D的主要课程之后，想做一个火焰纹章小游戏。<br>
+					想法很简单，实际去做的时候遇到很多问题，<br>
+					从制作过程中学到了瓦片地图的导入，A*寻路。
+				</p>
+				<p>
+					还有看起来很炫酷的子弹弹幕。。
+				</p>
+			`,
+			image : 'img/timeline/hxsd.png',
+			icon  : 'mdi-fountain-pen-tip',
+		},
+		{
+			year : '2017',
+			title: '毕业后的第一份工作：北京一骑当千的工作经历',
+			html : `
+				<p>
+					项目：特种部队2，参考皇室战争玩法的横板3D卡牌类养成游戏。<br>
+					绝大部分功能实现都与UI有关。
+				</p>
+				<p>
+					使用lua语言实现仓库(背包)系统
+				</p>
+				<p>
+					实现登陆/注册模块功能
+				</p>
+			`,
+			image    : 'img/timeline/tzbd.png',
+			iconImage: 'img/timeline/qk-icon.jpg',
+		},
+		{
+			year : '2018',
+			transparent: true,
+			title: '关于一些游戏引擎/SDK的研究',
+			html : `
+				<p>
+					看到许多游戏使用自研引擎<br>
+					我研究过Github上许多关于游戏开发仓库的代码，例如:
+					<ul>
+						<li><a target="_blank" href="https://github.com/MonoGame/MonoGame">Monogame/FNA</a>(XNA的精神继承者，国外很多成功的游戏都是使用其进行开发，使用C#语言也可以方便的让后人反编译代码进行学习)</li><br>
+						<li><a target="_blank" href="https://github.com/moai/moai-dev">Moai SDK</a>(使用C++作为底层处理循环模拟与渲染，游戏逻辑使用lua去编写，代码相当工整，其代码书写风格对我产生了深远的影响)</li><br>
+						<li><a target="_blank" href="https://bitbucket.org/MattThorson/monocle-engine/">Monocle</a>(游戏Celeste的引擎，功能简单，使用Scene->Entity->Component的结构)</li><br>
+						<li>还有一些GUI的研究，比如PythonQt4、Dear ImGUI、UE4 Slate、Sony ATF...</li>
+					</ul>
+				</p>
+				<p>
+					以下是我的一些学习过程中的成果:
+					<ul>
+						<li><a target="_blank" href="https://github.com/lihaochen910/moai-dev">Moai Ruby</a>(我大改了SDK的代码，顺便也学习了一下C++，使用mruby作为脚本嵌入)</li><br>
+						<li><a target="_blank" href="https://github.com/lihaochen910/RPGMakerProject">RPGMakerProject</a>(Html5游戏尝试，基于RPGMakerMV的代码，加入了ECS框架)</li><br>
+						<li><a target="_blank" href="https://github.com/lihaochen910/Candy">Candy</a>(基于Gii引擎编辑器的实验性研究，熟悉了引擎编辑器UI与引擎核心功能的交互、引擎UI的扩展)</li><br>
+					</ul>
+				</p>
+			`,
+			icon : 'mdi-github-circle',
+		},
+		{
+			detailed   : true,
+			transparent: true,
+			year       : '2019',
+			title      : '研究编程语言的实现原理',
+			html       : `
+				<p>
+				  开发游戏过程中，因为C#的编译速度问题，想使用C#实现一门动态语言可以加速逻辑编写<br>
+				  我阅读了许多关于编程语言的书，比如:
+				  <ul>
+					<li><strong>GameScriptingMastery</strong></li>
+					<li><strong>Ruby原理剖析</strong></li>
+					<li><strong>Ruby元编程</strong></li>
+					<li><strong>关于mruby的一切</strong></li>
+				  </ul>
+				</p>
+				<p>
+				以下是我的一些研究成果:
+				<ul>
+				  <li><a target="_blank" href="https://github.com/lihaochen910/GameScriptingMastery">XASM</a>(实现了一个常用指令集的VM，可以执行自定义语法的汇编脚本)</li><br>
+				  <li><a target="_blank" href="https://github.com/lihaochen910/RubySharp">RubySharp</a>(一个使用C#实现的Ruby解释器，可以运行基本ruby语法的脚本，不会编译为字节码，仅解析为抽象语法树，相当于解释执行)</li><br>
+				  <li><a target="_blank" href="https://github.com/lihaochen910/mRubySharp">mRubySharp</a>(实现了C#与CRuby的交互，可以导入C#类到Ruby虚拟机中，然后在Ruby中使用C#类，由于协程的一些问题并没有投入正式使用)</li><br>
+				  <li>深入研究了Ruby语言的虚拟机工作方式，还有Ruby的元编程原理</li><br>
+				  <li>还有一些语法解析库的研究，比如‎GOLD Parser、CocoR...</li>
+				</ul>
+				</p>
+				<p>
+				实现一门编程语言真的很酷！但是想在正式项目中使用还需要花费许多时间去完善语言的调试模块还有内存的管理。
+				</p>
+			`,
+			iconImage: 'img/timeline/source-code-icon.jpg',
+		},
+		{
+			year : '2019',
+			title: '猎源EA第一版本制作完成',
+			html : `
+			  <p>
+				  当前状态: <span class="light-blue--text lighten-3">已发布</span><br>可以在这里找到: <a target="_blank" href="https://store.steampowered.com/app/1078490/Seed_Hunter/">Steam猎源</a>
+			  </p>
+			  <p>
+				关键字:
+				<ul>
+					<li><strong>2D平台交互</strong></li>
+					<li><strong>关卡房间生成与管理</strong></li>
+					<li><strong>BehaviorTree、状态机</strong></li>
+					<li><strong>Boss、小怪行为逻辑调整</strong></li>
+					<li><strong>输入系统API包装以及兼容性调试</strong></li>
+					<li><strong>打击感调整</strong></li>
+					<li><strong>音乐/音效优化与调整</strong></li>
+					<li><strong>定制UnityEditor以优化开发流程</strong></li>
+					<li><strong>SteamAPI接入</strong></li>
+				  </ul>
+			  </p>
+			`,
+			image    : 'img/timeline/seedhunter.gif',
+			iconImage: 'img/timeline/seedhunter-ea-1-icon.png',
+		},
+		{
+			year : '2019',
+			title: '猎源EA第二版本制作完成',
+			html : `
+			  <p>
+				  当前状态: <span class="light-blue--text lighten-3">已发布</span><br>可以在这里找到: <a target="_blank" href="https://store.steampowered.com/app/1078490/Seed_Hunter/">Steam猎源</a>
+			  </p>
+			  <p>
+				基于上一个版本的已有内容，添加了很多新功能:
+				<ul>
+					<li>实现了成就系统</li>
+					<li>使用GOAP规划型AI来实现Boss的逻辑</li>
+					<li>使用AssetBundle替代大部分Resource.Load</li>
+					<li>使用对象池优化频繁生成的粒子特效</li>
+					<li>使用更加灵活的方式来实现玩家/怪的属性/状态值</li>
+				</ul><br>
+				还有处理一些在国外上运行时的遇到的坑
+			  </p>
+			`,
+			image    : 'img/timeline/seedhunter-ea-2.jpg',
+			iconImage: 'img/timeline/seedhunter-ea-2-icon.png',
+		},
+		{
+			year : '直到现在...',
+			title: '尽力完成猎源这款游戏!',
+			html : ``,
+			icon: 'mdi-fountain-pen-tip',
+		},
     ],
   }),
   computed: {
