@@ -166,11 +166,6 @@ export default {
 			value: 80,
 		},
 		{
-			title: 'JavaScript',
-			icon : 'mdi-language-javascript',
-			value: 80,
-		},
-		{
 			title: 'C/C++',
 			icon : 'mdi-language-cpp',
 			value: 60,

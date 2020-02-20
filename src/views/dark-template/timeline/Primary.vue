@@ -8,14 +8,14 @@
         id="timeline"
         :title="detailed ? 'My Life in a Nutshell' : 'My Experiences'"
       >
-        <template slot="actions">
-          <div>
-            <v-switch
-              v-model="detailed"
-              :label="detailed ? 'Detailed' : 'Summary'"
-            />
-          </div>
-        </template>
+<!--        <template slot="actions">-->
+<!--          <div>-->
+<!--            <v-switch-->
+<!--              v-model="detailed"-->
+<!--              :label="detailed ? 'Detailed' : 'Summary'"-->
+<!--            />-->
+<!--          </div>-->
+<!--        </template>-->
 
         <v-timeline
           dense
@@ -155,7 +155,7 @@ export default {
 					翻了几页，然而并没有看懂多少。。。:(
 				</p>
 			`,
-			image: 'img/timeline/book.gif',
+			image: 'img/timeline/book.png',
 			icon : 'mdi-school',
 		},
 		{
