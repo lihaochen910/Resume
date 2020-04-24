@@ -221,7 +221,7 @@ export default {
 					实现登陆/注册模块功能
 				</p>
 			`,
-			image    : 'img/timeline/tzbd.png',
+			image    : [ 'img/timeline/tzbd.png', 'img/timeline/QK_team.jpg' ],
 			iconImage: 'img/timeline/qk-icon.jpg',
 		},
 		{
@@ -329,10 +329,29 @@ export default {
 			image    : 'img/timeline/seedhunter-ea-2.jpg',
 			iconImage: 'img/timeline/seedhunter-ea-2-icon.png',
 		},
+        {
+          year : '2020',
+          title: '猎源正式版制作完成',
+          html : `
+                <p>
+                    在玩家群中测试，正式版将于4月底左右解禁<br><br>
+                    大家辛苦了！
+                </p>
+              `,
+          image    : 'img/timeline/SeedHunter_team.png',
+          iconImage: 'img/timeline/seedhunter-ea-2-icon.png',
+        },
 		{
 			year : '直到现在...',
-			title: '尽力完成猎源这款游戏!',
-			html : ``,
+			title: '受疫情影响，在家闭关修炼',
+			html : `
+              <p>
+				<ul>
+					<li><strong>研究Moai SDK，学习'Metal Max Unlimited'游戏实现，正在制作重装机兵同人游戏</strong></li>
+					<li><strong>学习和声学与混音技术，以及一些编曲相关教程</strong></li>
+                </ul>
+			  </p>
+			`,
 			icon: 'mdi-fountain-pen-tip',
 		},
     ],
