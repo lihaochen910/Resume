@@ -168,8 +168,13 @@ export default {
 		{
 			title: 'C/C++',
 			icon : 'mdi-language-cpp',
-			value: 60,
+			value: 50,
 		},
+        {
+          title: 'Python',
+          icon : 'mdi-language-python',
+          value: 50,
+        },
 		{ divider: true },
 		{
 			title: 'Unity3D',
