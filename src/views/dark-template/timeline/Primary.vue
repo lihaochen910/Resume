@@ -347,7 +347,7 @@ export default {
 			html : `
               <p>
 				<ul>
-					<li><strong>研究Moai SDK，学习'Metal Max Unlimited'游戏实现，正在制作重装机兵同人游戏</strong></li>
+					<li><strong>研究Moai SDK，学习'Metal Max Unlimited'游戏实现</strong></li>
 					<li><strong>学习和声学与混音技术，以及一些编曲相关教程</strong></li>
                 </ul>
 			  </p>

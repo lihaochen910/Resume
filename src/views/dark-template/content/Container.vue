@@ -151,11 +151,6 @@ export default {
 			value: 95,
 		},
 		{
-			title: 'JavaScript',
-			icon : 'mdi-language-javascript',
-			value: 80,
-		},
-		{
 			title: 'Lua',
 			icon : 'mdi-language-lua',
 			value: 80,
@@ -163,8 +158,13 @@ export default {
 		{
 			title: 'Ruby',
 			icon : 'mdi-language-ruby-on-rails',
-			value: 80,
+			value: 50,
 		},
+        {
+          title: 'JavaScript',
+          icon : 'mdi-language-javascript',
+          value: 40,
+        },
 		{
 			title: 'C/C++',
 			icon : 'mdi-language-cpp',
@@ -194,13 +194,13 @@ export default {
 		{
 			title: 'Html5 Game Dev',
 			icon : 'mdi-gamepad',
-			value: 60,
+			value: 40,
 		},
 		{ divider: true },
 		{
 			title: 'Git',
 			icon : 'mdi-git',
-			value: 67,
+			value: 50,
 		},
     ],
   }),
