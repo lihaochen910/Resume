@@ -151,20 +151,25 @@ export default {
 			value: 95,
 		},
 		{
+			title: 'FSharp',
+			icon : 'mdi-language-haskell',
+			value: 30,
+		},
+		{
 			title: 'Lua',
 			icon : 'mdi-language-lua',
 			value: 80,
+		},
+		{
+			title: 'JavaScript',
+			icon : 'mdi-language-javascript',
+			value: 70,
 		},
 		{
 			title: 'Ruby',
 			icon : 'mdi-language-ruby-on-rails',
 			value: 50,
 		},
-        {
-          title: 'JavaScript',
-          icon : 'mdi-language-javascript',
-          value: 40,
-        },
 		{
 			title: 'C/C++',
 			icon : 'mdi-language-cpp',

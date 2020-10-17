@@ -347,7 +347,9 @@ export default {
 			html : `
               <p>
 				<ul>
-					<li><strong>研究Moai SDK，学习'Metal Max Unlimited'游戏实现</strong></li>
+					<li><strong>学习F#函数式编程语言</strong></li>
+					<li><strong>研究ArtemisEngine，学习Microsoft XNA</strong></li>
+					<li><strong>研究Moai SDK</strong></li>
 					<li><strong>学习和声学与混音技术，以及一些编曲相关教程</strong></li>
                 </ul>
 			  </p>
