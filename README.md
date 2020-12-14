@@ -38,9 +38,9 @@ git clone https://github.com/evryn/vue-modern-resume
 
 4. Customize your resume
 
-5. Preview resume with `npm serve`.
+5. Preview resume with `npm run serve`.
 
-6. Build it with `npm build`.
+6. Build it with `npm run build`.
 
 ## Contribution
 Feel free to add your own templates, language supports, bug fixes or improvements. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as a new template.

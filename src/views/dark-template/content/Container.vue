@@ -64,9 +64,9 @@
         id="to-timeline"
         title="技能"
       >
-        <template slot="actions">
-          (%为相对而非绝对)
-        </template>
+<!--        <template slot="actions">-->
+<!--          (%为相对而非绝对)-->
+<!--        </template>-->
         <v-layout wrap>
           <template
             v-for="(skill, i) in skills"
@@ -163,7 +163,7 @@ export default {
 		{
 			title: 'JavaScript',
 			icon : 'mdi-language-javascript',
-			value: 70,
+			value: 80,
 		},
 		{
 			title: 'Ruby',
@@ -199,7 +199,7 @@ export default {
 		{
 			title: 'Monogame/FNA',
 			icon : 'mdi-gamepad',
-			value: 50,
+			value: 30,
 		},
 		{
 			title: 'Html5 Game Dev',

@@ -299,7 +299,7 @@ export default {
 					<li><strong>输入系统API包装以及兼容性调试</strong></li>
 					<li><strong>打击感调整</strong></li>
 					<li><strong>音乐/音效优化与调整</strong></li>
-					<li><strong>定制UnityEditor以优化开发流程</strong></li>
+					<li><strong>使用UnityEditor脚本扩展编辑器以优化开发流程</strong></li>
 					<li><strong>SteamAPI接入</strong></li>
 				  </ul>
 			  </p>
@@ -323,7 +323,7 @@ export default {
 					<li>使用对象池优化频繁生成的粒子特效</li>
 					<li>使用更加灵活的方式来实现玩家/怪的属性/状态值</li>
 				</ul><br>
-				还有处理一些在国外上运行时的遇到的坑
+				还有处理一些在国外机器上运行时的遇到的本地化相关问题
 			  </p>
 			`,
 			image    : 'img/timeline/seedhunter-ea-2.jpg',
@@ -348,7 +348,7 @@ export default {
               <p>
 				<ul>
 					<li><strong>学习F#函数式编程语言</strong></li>
-					<li><strong>研究ArtemisEngine，学习Microsoft XNA</strong></li>
+					<li><strong>研究Monogame/FNA，学习Microsoft XNA</strong></li>
 					<li><strong>研究Moai SDK</strong></li>
 					<li><strong>学习和声学与混音技术，以及一些编曲相关教程</strong></li>
                 </ul>
