@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Kanbaru</title>
-    <link>https://risotto.joeroe.io/series/</link>
+    <link>https://lihaochen910.github.io/Resume/series/</link>
     <description>Recent content in Series on Kanbaru</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>🍌 2025</copyright>
     <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://risotto.joeroe.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lihaochen910.github.io/Resume/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Themes Guide</title>
-      <link>https://risotto.joeroe.io/series/themes-guide/</link>
+      <link>https://lihaochen910.github.io/Resume/series/themes-guide/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://risotto.joeroe.io/series/themes-guide/</guid>
+      <guid>https://lihaochen910.github.io/Resume/series/themes-guide/</guid>
       <description></description>
     </item>
   </channel>
