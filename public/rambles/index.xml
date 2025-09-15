@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rambles on Kanbaru</title>
+    <link>https://risotto.joeroe.io/rambles/</link>
+    <description>Recent content in Rambles on Kanbaru</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>🍌 2025</copyright>
+    <atom:link href="https://risotto.joeroe.io/rambles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UE5游戏</title>
+      <link>https://risotto.joeroe.io/rambles/ue5-private-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://risotto.joeroe.io/rambles/ue5-private-project/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

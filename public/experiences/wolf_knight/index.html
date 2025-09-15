@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><title>狼骑士 2017-2020 &ndash; Kanbaru</title>
+<meta name="description" content="Kanbaru&lt;br&gt;一个独立游戏开发者">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://risotto.joeroe.io/css/palettes/bubblegum.css">
+<link rel="stylesheet" href="https://risotto.joeroe.io/css/risotto.css">
+<link rel="stylesheet" href="https://risotto.joeroe.io/css/custom.css">
+
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+    <h1 class="page__logo"><a href="https://risotto.joeroe.io/" class="page__logo-inner">Kanbaru</a></h1>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://risotto.joeroe.io/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://risotto.joeroe.io/experiences/" title="Experiences">Experiences</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://risotto.joeroe.io/rambles/" title="Rambles">Rambles</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>狼骑士 2017-2020</h1>
+    </header>
+    <div class="content__body">
+        <p><img src="/images/seed_hunter/team_wolfknight.png" alt="Team"></p>
+<h2 id="游戏项目猎源">游戏项目：猎源</h2>
+<p><img src="/images/seed_hunter/seedhunter.gif" alt="SeedHunter"><br>
+猎源这个游戏可以说是我个人做过项目中成长的一次关键点</p>
+<p>是一款2d横版Roguelite动作游戏</p>
+<h3 id="系统">系统</h3>
+<p>设计并实现了一套完整的游戏，包括游戏状态管理、资源管理、简单的UI管理、地图结构生成、音乐音效管理、存档系统等，各系统间使用<strong>EventKit</strong>(事件总线)来进行交互</p>
+<h3 id="角色相关">角色相关</h3>
+<ul>
+<li>
+<p><strong>自定义角色控制器</strong>：
+角色平台移动控制基于<a href="https://github.com/prime31/CharacterController2D">primer31/CharacterController2D</a>，在此基础上扩展出墙跳、攀爬、冲刺等各种移动能力的角色控制器
+现在看来比起使用Unity2d刚体作为基础来看，优点是可以获取更多额外的环境感知信息</p>
+</li>
+<li>
+<p><strong>角色状态</strong>：<br>
+主角状态使用Playmaker状态机来管理状态
+<img src="/images/seed_hunter/seedhunter_character_fsm.png" alt="CharacterFSM"><br></p>
+</li>
+<li>
+<p><strong>角色属性</strong>：<br>
+实现了一个Stat管理，便于接入后面Buff需求
+<img src="/images/seed_hunter/seedhunter_rpgstat.png" alt="CharacterStat"><br></p>
+</li>
+</ul>
+<h3 id="敌人相关">敌人相关</h3>
+<p>游戏中有很多种类的的怪
+<img src="/images/seed_hunter/seedhunter_enemy.png" alt="SeedHunter"><br>
+与策划大哥为怪设计了各种AI行为，最后根据大家的反馈来细节调整</p>
+<p>使用状态机+行为树+输入组件的结构来实现<br>
+项目前中期时，使用NodeCanvas行为树插件和Playmaker状态机来实现AI逻辑
+<img src="/images/seed_hunter/seedhunter_monster_bt.png" alt="MonserBT"><br></p>
+<p>项目后期业余时间探索了GOAP、ActionList用于实现游戏AI的框架
+发现GOAP用于制作招式非规律性的怪还是很方便的</p>
+<p>于是有了下面的库：<a href="https://github.com/lihaochen910/UnityGoapAIDemo">UnityGoapAI</a>
+<img src="/images/seed_hunter/seedhunter_enemy_goap.png" alt=""><br></p>
+<h3 id="平台sdk接入">平台SDK接入</h3>
+<p>接入Steamworks.Net
+实现了成就系统、云存档同步<br>
+配置Steam后台成就、上传并发布制品版游戏</p>
+<p>借助Heroku平台，实现了一个简单的后端服务器用于一些数据统计</p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <img src="https://risotto.joeroe.io/images/icon.png" alt="Logo">
+<h1 class="about__title"></h1>
+<p class="about__description">Kanbaru<br>一个独立游戏开发者</p>
+</div>
+
+
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/lihaochen910" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:lihaochen910@hotmail.com" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+            
+            2017-03-01
+        </p>
+    
+
+    
+	    <hr>
+	    On this page:
+	    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#游戏项目猎源">游戏项目：猎源</a>
+      <ol>
+        <li><a href="#系统">系统</a></li>
+        <li><a href="#角色相关">角色相关</a></li>
+        <li><a href="#敌人相关">敌人相关</a></li>
+        <li><a href="#平台sdk接入">平台SDK接入</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">🍌 2025</p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

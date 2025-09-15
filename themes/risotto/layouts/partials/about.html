@@ -1,0 +1,22 @@
+{{ with .Site.Params.about }}
+<div class="aside__about">
+    {{ with .logo }}<img src="{{ . | absURL }}" alt="Logo">{{ end }}
+<h1 class="about__title">{{ .title }}</h1>
+{{ with .description }}<p class="about__description">{{ . | markdownify }}</p>{{ end }}
+</div>
+{{ end }}
+
+<!-- {{ if .Site.Params.about.logo }}
+  <img src="{{ .Site.Params.about.logo | relURL }}"
+       alt="Logo"
+       width="{{ .Site.Params.about.logoWidth }}"
+       height="{{ .Site.Params.about.logoHeight }}">
+{{ end }} -->
+
+<ul class="aside__social-links">
+    {{ range $item := .Site.Params.socialLinks }}
+    <li>
+        <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}"><i class="{{ $item.icon }}" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    {{ end }}
+</ul>

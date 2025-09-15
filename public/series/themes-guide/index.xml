@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Themes Guide on Kanbaru</title>
+    <link>https://risotto.joeroe.io/series/themes-guide/</link>
+    <description>Recent content in Themes Guide on Kanbaru</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>🍌 2025</copyright>
+    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://risotto.joeroe.io/series/themes-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>狼骑士 2017-2020</title>
+      <link>https://risotto.joeroe.io/experiences/wolf_knight/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://risotto.joeroe.io/experiences/wolf_knight/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/team_wolfknight.png&#34; alt=&#34;Team&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;游戏项目猎源&#34;&gt;游戏项目：猎源&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/seedhunter.gif&#34; alt=&#34;SeedHunter&#34;&gt;&lt;br&gt;&#xA;猎源这个游戏可以说是我个人做过项目中成长的一次关键点&lt;/p&gt;&#xA;&lt;p&gt;是一款2d横版Roguelite动作游戏&lt;/p&gt;&#xA;&lt;h3 id=&#34;系统&#34;&gt;系统&lt;/h3&gt;&#xA;&lt;p&gt;设计并实现了一套完整的游戏，包括游戏状态管理、资源管理、简单的UI管理、地图结构生成、音乐音效管理、存档系统等，各系统间使用&lt;strong&gt;EventKit&lt;/strong&gt;(事件总线)来进行交互&lt;/p&gt;&#xA;&lt;h3 id=&#34;角色相关&#34;&gt;角色相关&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;自定义角色控制器&lt;/strong&gt;：&#xA;角色平台移动控制基于&lt;a href=&#34;https://github.com/prime31/CharacterController2D&#34;&gt;primer31/CharacterController2D&lt;/a&gt;，在此基础上扩展出墙跳、攀爬、冲刺等各种移动能力的角色控制器&#xA;现在看来比起使用Unity2d刚体作为基础来看，优点是可以获取更多额外的环境感知信息&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;角色状态&lt;/strong&gt;：&lt;br&gt;&#xA;主角状态使用Playmaker状态机来管理状态&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/seedhunter_character_fsm.png&#34; alt=&#34;CharacterFSM&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;角色属性&lt;/strong&gt;：&lt;br&gt;&#xA;实现了一个Stat管理，便于接入后面Buff需求&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/seedhunter_rpgstat.png&#34; alt=&#34;CharacterStat&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;敌人相关&#34;&gt;敌人相关&lt;/h3&gt;&#xA;&lt;p&gt;游戏中有很多种类的的怪&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/seedhunter_enemy.png&#34; alt=&#34;SeedHunter&#34;&gt;&lt;br&gt;&#xA;与策划大哥为怪设计了各种AI行为，最后根据大家的反馈来细节调整&lt;/p&gt;&#xA;&lt;p&gt;使用状态机+行为树+输入组件的结构来实现&lt;br&gt;&#xA;项目前中期时，使用NodeCanvas行为树插件和Playmaker状态机来实现AI逻辑&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/seedhunter_monster_bt.png&#34; alt=&#34;MonserBT&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;项目后期业余时间探索了GOAP、ActionList用于实现游戏AI的框架&#xA;发现GOAP用于制作招式非规律性的怪还是很方便的&lt;/p&gt;&#xA;&lt;p&gt;于是有了下面的库：&lt;a href=&#34;https://github.com/lihaochen910/UnityGoapAIDemo&#34;&gt;UnityGoapAI&lt;/a&gt;&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/seed_hunter/seedhunter_enemy_goap.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;平台sdk接入&#34;&gt;平台SDK接入&lt;/h3&gt;&#xA;&lt;p&gt;接入Steamworks.Net&#xA;实现了成就系统、云存档同步&lt;br&gt;&#xA;配置Steam后台成就、上传并发布制品版游戏&lt;/p&gt;&#xA;&lt;p&gt;借助Heroku平台，实现了一个简单的后端服务器用于一些数据统计&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一骑当千 2016</title>
+      <link>https://risotto.joeroe.io/experiences/yi_ji/</link>
+      <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://risotto.joeroe.io/experiences/yi_ji/</guid>
+      <description>&lt;h2 id=&#34;实习&#34;&gt;实习&lt;/h2&gt;&#xA;&lt;p&gt;从学校出来的第一份工作&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/yi_ji/team.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;做了一个背包UI&lt;br&gt;&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/yi_ji/tzbd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;还做了带有十几个界面的登录注册流程UI&lt;br&gt;&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/yi_ji/xxx.png&#34; alt=&#34;图片已经找不到了&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UE5游戏</title>
+      <link>https://risotto.joeroe.io/rambles/ue5-private-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://risotto.joeroe.io/rambles/ue5-private-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>学校</title>
+      <link>https://risotto.joeroe.io/experiences/school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://risotto.joeroe.io/experiences/school/</guid>
+      <description>&lt;h2 id=&#34;学习android应用开发&#34;&gt;学习Android应用开发&lt;/h2&gt;&#xA;&lt;p&gt;开发了应用锁&lt;br&gt;&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/school/school_2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;接触游戏引擎&#34;&gt;接触游戏引擎&lt;/h2&gt;&#xA;&lt;p&gt;想做游戏，开始接触Unity3D游戏引擎&lt;br&gt;&#xA;那个时候很喜欢凯瑟琳这个游戏，就尝试去做（虽然只能简单的移动&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/school/school.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;经过了一段时间的学习后，实现了2D火焰纹章的寻路&#xA;&lt;img src=&#34;https://risotto.joeroe.io/images/school/fire_em.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>皮克皮 2020-2025</title>
+      <link>https://risotto.joeroe.io/experiences/pixpil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://risotto.joeroe.io/experiences/pixpil/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
